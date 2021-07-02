@@ -1,0 +1,124 @@
+body {
+  font-family: "Trebuchet MS", "Gills Sans", sans-serif;
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(2rem);
+}
+
+section {
+  min-height: 80vh;
+  width: 60%;
+  background: rgb(0, 149, 120);
+  border-radius: 2rem;
+}
+.user__info {
+  display: block;
+  color: #fff;
+  position: relative;
+}
+
+.user__info,
+.user__post {
+  padding: 14px 26px;
+}
+.user__info h3 {
+  margin: 0;
+}
+.user__info p {
+  margin-top: 0px;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.user__info button {
+  cursor: pointer;
+  transition: background 0.1s;
+  position: absolute;
+  top: 1.2rem;
+  right: 20px;
+  border-radius: 2rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  background: linear-gradient(to right top, #65dfc9, #6cdb);
+}
+.user__info button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.user__post {
+  background: #fff;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+.post__title {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+@media screen and (min-width: 1024px) {
+  section {
+    width: 40%;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  section {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  
+  section {
+    width: 80%;
+  }
+  .user__info h3 {
+    font-size: 0.8rem;
+  }
+  .user__info p {
+    font-size: 0.7rem;
+  }
+  .user__info button {
+    padding: 0.5rem 0.8rem !important;
+    font-size: 0.7rem;
+  }
+  .user__post {
+    font-size: 0.6rem;
+  }
+  .post__title {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  section {
+    width: 80%;
+  }
+  .user__info h3 {
+    font-size: 0.65rem;
+  }
+  .user__info p {
+    font-size: 0.5rem;
+  }
+  .user__info button {
+    padding: 0.2rem 0.5rem !important;
+    font-size: 0.7rem;
+    right: 0.5rem !important;
+  }
+  .user__post {
+    font-size: 0.5rem;
+  }
+  .post__title {
+    font-size: 0.7rem;
+  }
+}
