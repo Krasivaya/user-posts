@@ -25,11 +25,11 @@ From - `https://jsonplaceholder.typicode.com`
 | /users             | GET    | Retrive all users              |
 | /posts?userId={id} | GET    | Retrieve a specific user posts |
 
-### Setup/Installation Requirements 🔗
+### Setup Requirements 🔗
 
 - Open your terminal
-- initialize github, git clone `https://github.com/Krasivaya/user-posts.github.io`
-- cd user-posts.github.io
+- initialize github repo, `git clone https://github.com/Krasivaya/user-posts`
+- cd user-posts
 - open `index.html` in prefered browser
 
 ### Known Bugs 🪲
@@ -42,4 +42,4 @@ Email: semwagacarine@gmail.com
 
 ### Live site 🖥
 
-[User Posts](https://user-posts.github.io/)
+[User Posts](https://krasivaya.github.io/user-posts/)
